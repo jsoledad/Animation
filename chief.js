@@ -6,7 +6,7 @@ class Chief{
         this.background = ASSET_MANAGER.getAsset("./sprites/background.png");
 
         this.facing = 0; // 0 = right, 1 = left, 2 = down, 3 = up
-        this.steps = 0; 
+        this.steps = 0;
         this.animations = [];
         this.loadAnimations();
         //this.animation = new Animator(this.spritesheet, 80, 205, 30, 50, 8, 0.15, 34, false, true);
@@ -20,7 +20,7 @@ class Chief{
         }
        // constructor(spritesheet, xStart, yStart, width, height, frameCount, frameDuration, framePadding, reverse, loop)
         // walking right
-        this.animations[0] = new Animator(this.spritesheet, 117, 9, 41, 60, 10, 0.15, 9.5, false, true);
+        this.animations[0] = new Animator(this.spritesheet, 117, 9, 41, 60, 10, 0.2, 9, false, true);
 
         // Just in case more directions, currently only right is available
         this.animations[1] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
