@@ -20,7 +20,7 @@ class Chief{
         }
        // constructor(spritesheet, xStart, yStart, width, height, frameCount, frameDuration, framePadding, reverse, loop)
         // walking right
-        this.animations[0] = new Animator(this.spritesheet, 117, 9, 41, 60, 9.5, 0.17, 10, false, true);
+        this.animations[0] = new Animator(this.spritesheet, 117, 9, 41, 60, 11, 0.17, 10, false, true);
 
         // Just in case more directions, currently only right is available
         this.animations[1] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
