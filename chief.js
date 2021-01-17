@@ -18,12 +18,14 @@ class Chief{
         for (var i = 0; i < 4; i++) { // 4 directions
             this.animations.push([]);
         }
-
+       // constructor(spritesheet, xStart, yStart, width, height, frameCount, frameDuration, framePadding, reverse, loop)
         // walking right
-        this.animations[0] = new Animator(this.spritesheet, 118, 8, 41, 60, 8, 0.15, 34, false, true);
-        this.animations[1] = new Animator(this.spritesheet, 167, 8, 41, 60, 8, 0.15, 34, false, true);
-        this.animations[2] = new Animator(this.spritesheet, 216, 8, 41, 60, 8, 0.15, 34, false, true);
-        this.animations[3] = new Animator(this.spritesheet, 272, 8, 41, 60, 8, 0.15, 34, false, true);
+        this.animations[0] = new Animator(this.spritesheet, 117, 9, 41, 60, 8, 0.15, 10, false, true);
+
+        // Just in case more directions, currently only right is available
+        this.animations[1] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
+        this.animations[2] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
+        this.animations[3] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
 
     }
 
