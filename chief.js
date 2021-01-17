@@ -20,10 +20,10 @@ class Chief{
         }
 
         // walking right
-        this.animations[0] = new Animator(this.spritesheet, 80, 205, 30, 50, 8, 0.15, 34, false, true);
-        this.animations[1] = new Animator(this.spritesheet, 82, 78, 30, 50, 8, 0.15, 34, false, true);
-        this.animations[2] = new Animator(this.spritesheet, 81, 142, 30, 50, 8, 0.15, 34, false, true);
-        this.animations[3] = new Animator(this.spritesheet, 81, 14, 30, 50, 8, 0.15, 34, false, true);
+        this.animations[0] = new Animator(this.spritesheet, 118, 8, 41, 60, 8, 0.15, 34, false, true);
+        this.animations[1] = new Animator(this.spritesheet, 167, 8, 41, 60, 8, 0.15, 34, false, true);
+        this.animations[2] = new Animator(this.spritesheet, 216, 8, 41, 60, 8, 0.15, 34, false, true);
+        this.animations[3] = new Animator(this.spritesheet, 272, 8, 41, 60, 8, 0.15, 34, false, true);
 
     }
 
