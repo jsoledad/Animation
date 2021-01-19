@@ -1,7 +1,7 @@
 var ASSET_MANAGER = new AssetManager();
 
 ASSET_MANAGER.queueDownload("./sprites/background.png");
-ASSET_MANAGER.queueDownload("./sprites/MasterChief.png");
+ASSET_MANAGER.queueDownload("./sprites/MasterChief2.png");
 
 ASSET_MANAGER.downloadAll(function () {
 	var gameEngine = new GameEngine();

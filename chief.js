@@ -2,7 +2,7 @@ class Chief{
     constructor(game, x, y) {
         Object.assign(this, { game, x, y });
 
-        this.spritesheet = ASSET_MANAGER.getAsset("./sprites/MasterChief.png");
+        this.spritesheet = ASSET_MANAGER.getAsset("./sprites/MasterChief2.png");
         this.background = ASSET_MANAGER.getAsset("./sprites/background.png");
 
         this.facing = 0; // 0 = right, 1 = left, 2 = down, 3 = up
@@ -20,7 +20,7 @@ class Chief{
         }
        // constructor(spritesheet, xStart, yStart, width, height, frameCount, frameDuration, framePadding, reverse, loop)
         // walking right
-        this.animations[0] = new Animator(this.spritesheet, 118, 9, 41.5, 60, 7, 0.2, 9, false, true);
+        this.animations[0] = new Animator(this.spritesheet, 112, 9, 45.5, 60, 9, 0.1, 10, false, true);
 
         // Just in case more directions, currently only right is available
         this.animations[1] = new Animator(this.spritesheet, 0, 0, 0, 0, 0, 0, 0, false, true);
